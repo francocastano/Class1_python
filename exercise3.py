@@ -27,4 +27,3 @@ k = not([])
 #true
 l = not('') or not(' ')
 #true
-print(l)
