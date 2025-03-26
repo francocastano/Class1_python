@@ -7,4 +7,5 @@ Ayuda: investigue qué es el slicing y las diferentes formas de usarlo.
 """
 numeros = "0123456789"
 
-numeros_pares = numeros[0,-1,2]
+even_numbers = numeros[::2]
+print(even_numbers)

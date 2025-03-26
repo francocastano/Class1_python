@@ -21,9 +21,11 @@ print(type(a))
 """
 Ejercicio 2
 
-Poner paréntesis en las siguientes expresiones de acuerdo a las reglas de precedencia y asociatividad de los operadores.
-Si no conoce la precedencia de algún operador, se aconseja probarla primero en el intérprete.
-Una vez hecho esto, determinar el tipo de cada subexpresión entre paréntesis hasta determinar el tipo de la expresión completa.
+Poner paréntesis en las siguientes expresiones de acuerdo a las reglas de
+precedencia y asociatividad de los operadores. Si no conoce la precedencia de
+algún operador, se aconseja probarla primero en el intérprete. Una vez hecho
+esto, determinar el tipo de cada subexpresión entre paréntesis hasta determinar
+el tipo de la expresión completa.
 
 a) 3 * 5 - 7 * 4 / 14 + 3 / 1
 b) 2 ** 1 + 3 / 5 // 4
@@ -53,7 +55,8 @@ print((4 >= 40 and 8 <= 10) or (2 < 20 or 10 > 100))
 """
 Ejercicio 4
 
-Considerar los siguientes fragmentos de código, y verificar si son correctos o no. En caso de no serlo, proponer un cambio para arreglarlo.
+Considerar los siguientes fragmentos de código, y verificar si son correctos o
+no. En caso de no serlo, proponer un cambio para arreglarlo.
 """
 # a)
 print(saludo + " " + destino + puntuacion)
@@ -90,54 +93,68 @@ Ejercicio 6
 Proponga un método en papel para resolver cada uno de los siguientes problemas.
 
 a) Dada la base y altura de un rectángulo, determinar su área y su perímetro.
-b) Calcular la nota final de un alumno que se obtiene de promediar las 3 notas de sus parciales.
-c) Calcular la distancia entre dos puntos en el plano, usando pitágoras (a^2 + b^2 = c^2)
+b) Calcular la nota final de un alumno que se obtiene de promediar las 3 notas
+   de sus parciales.
+c) Calcular la distancia entre dos puntos en el plano, usando pitágoras (a^2 +
+   b^2 = c^2)
 
-Ahora, con ayuda de su docente, empezaremos a ver cómo escribir estos algoritmos como programas en Python.
+Ahora, con ayuda de su docente, empezaremos a ver cómo escribir estos algoritmos
+como programas en Python.
 """
 
 """
 Ejercicio 7
 
-Conocido el número en matemática PI, pedir al usuario que ingrese el valor del radio de una circunferencia y calcular y mostrar por pantalla el área y perí́metro. Recuerde que para calcular el área y el perí́metro se utilizan las siguientes fórmulas:
+Conocido el número en matemática PI, pedir al usuario que ingrese el valor del
+radio de una circunferencia y calcular y mostrar por pantalla el área y
+perí́metro. Recuerde que para calcular el área y el perí́metro se utilizan las
+siguientes fórmulas:
 
-Area = π * radio^2
-Perimetro = 2 * π * radio
+Area = π * radio^2 Perimetro = 2 * π * radio
 """
 
 """
 Ejercicio 8
 
-Escribir un programa que calcule cuántos litros de combustible consumió un automóvil. El usuario debe
-ingresar una cantidad de litros de combustible cargados en la estación y una cantidad de kilómetros
-recorridos. Después, el programa calculará el consumo (km/lt) y se lo mostrará al usuario.
+Escribir un programa que calcule cuántos litros de combustible consumió un
+automóvil. El usuario debe ingresar una cantidad de litros de combustible
+cargados en la estación y una cantidad de kilómetros recorridos. Después, el
+programa calculará el consumo (km/lt) y se lo mostrará al usuario.
 """
 
 """
 Ejercicio 9
 
-Escriba un programa que permita al usuario ingresar el valor de dos variables numéricas de tipo entero.
-Posteriormente, el programa debe intercambiar los valores de ambas variables y mostrar el resultado
-final por pantalla. Por ejemplo, si el usuario ingresa los valores num1 = 9 y num2 = 3, la salida del programa deberá mostrar: num1 = 3 y num2 = 9.
+Escriba un programa que permita al usuario ingresar el valor de dos variables
+numéricas de tipo entero. Posteriormente, el programa debe intercambiar los
+valores de ambas variables y mostrar el resultado final por pantalla. Por
+ejemplo, si el usuario ingresa los valores num1 = 9 y num2 = 3, la salida del
+programa deberá mostrar: num1 = 3 y num2 = 9.
 
-Ayuda: Para intercambiar los valores de dos variables se debe utilizar una variable auxiliar.
+Ayuda: Para intercambiar los valores de dos variables se debe utilizar una
+variable auxiliar.
 """
 
 """
 Ejercicio 10
 
-Modelar los siguientes problemas, nombrando los datos relevantes de entrada y salida, junto con los tipos de datos
-que se usarán para representarlos dentro de Python. Luego programar la solución.
+Modelar los siguientes problemas, nombrando los datos relevantes de entrada y
+salida, junto con los tipos de datos que se usarán para representarlos dentro de
+Python. Luego programar la solución.
 
-a) Se tienen dos habitaciones dentro de un hogar, cada una con una temperatura ambiente posiblemente distinta.
-Se quiere saber a qué temperatura estarán las habitaciones, dado suficiente tiempo para que se transmita
-el calor de una a la otra.
+a) Se tienen dos habitaciones dentro de un hogar, cada una con una temperatura
+   ambiente posiblemente distinta.
+Se quiere saber a qué temperatura estarán las habitaciones, dado suficiente
+tiempo para que se transmita el calor de una a la otra.
 
-b) Se tiene una multitud afuera, cada persona le dirá su nombre a cada otra persona en la multitud.
-Se quiere saber cuánto tiempo llevará hacer esto, dado que decir una vez tu nombre lleva aproximadamente 4 segundos y medio.
+b) Se tiene una multitud afuera, cada persona le dirá su nombre a cada otra
+   persona en la multitud.
+Se quiere saber cuánto tiempo llevará hacer esto, dado que decir una vez tu
+nombre lleva aproximadamente 4 segundos y medio.
 
 c) Hay dos personas con nombres muy largos, pero similares.
-Se quiere conocer, por un lado, si tienen el mismo tamaño, y por otro lado si son iguales.
+Se quiere conocer, por un lado, si tienen el mismo tamaño, y por otro lado si
+son iguales.
 
 Ayuda para el programa: investigar la función `len`.
 """
